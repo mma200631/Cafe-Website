@@ -1,0 +1,35 @@
+@media (max-width: 767px) {
+    .weather::before {
+      content: url('weather-icon.svg');
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      margin-right: 10px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    body {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    body {
+      font-size: 1.4rem;
+    }
+  
+    .content {
+      top: 20%;
+      left: 10%;
+    }
+  
+    .weather {
+      bottom: 10%;
+      right: 10%;
+    }
+  
+    .content, .weather {
+      padding: 2rem;
+    }
+  } 
